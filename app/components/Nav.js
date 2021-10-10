@@ -9,14 +9,23 @@ const activeStyle = {
 export default function Nav() {
   return (
     <div>
-      <ul className="d-flex">
-        <li>
-          <NavLink exact to="/" activeStyle={activeStyle}>
+      <ul className="d-flex list-group flex-row justify-content-center my-4">
+        <li className="list-group-item mx-3 border-0">
+          <NavLink
+            className="fs-4 btn btn-light text-decoration-none"
+            exact
+            to="/"
+            activeStyle={activeStyle}
+          >
             Top
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/new" activeStyle={activeStyle}>
+        <li className="list-group-item mx-3 border-0">
+          <NavLink
+            className=" fs-4 btn btn-light text-decoration-none"
+            to="/new"
+            activeStyle={activeStyle}
+          >
             New
           </NavLink>
         </li>

@@ -7,6 +7,7 @@ import New from "./components/New";
 import User from "./components/User";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Comments from "./components/Comments";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 export default class App extends React.Component {
   render() {
     return (

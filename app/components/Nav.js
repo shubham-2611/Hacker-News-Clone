@@ -9,7 +9,7 @@ const activeStyle = {
 export default function Nav() {
   return (
     <div>
-      <ul>
+      <ul className="d-flex">
         <li>
           <NavLink exact to="/" activeStyle={activeStyle}>
             Top

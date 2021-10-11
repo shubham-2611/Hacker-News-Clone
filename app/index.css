@@ -11,8 +11,10 @@ body {
 #para-1{
   height:100px;
   width:100px;
+  min-height: 60px;
   background-color: red;
   font-family: inherit;
+  
 
 }
 

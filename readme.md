@@ -1,4 +1,4 @@
-# This is a Hacker-News-Clone, built using React, Javascript and CSS
+# This is a Hacker-News-Clone, built with React, Javascript and CSS
 
 
 # Installation and Setup Instructions

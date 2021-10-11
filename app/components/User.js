@@ -3,7 +3,7 @@ import queryString from "query-string";
 import { fetchUser } from "../utils/api";
 import formatDate from "../utils/time";
 import Post from "./Post";
-
+/*comment for hactoberfest challenge*/
 export default class User extends React.Component {
   constructor(props) {
     super(props);

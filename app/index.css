@@ -17,6 +17,9 @@ body {
 }
 
 #para-3{
+  width: 100px;
+  height: 100px;
+  min-height: 60px;
   background-color: blue;
   text-align: center;
   border-radius:100px;

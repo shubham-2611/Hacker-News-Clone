@@ -1,4 +1,7 @@
-# This is a clone of hacker new website made using React
+# This is a Hacker-News-Clone, built with React, Javascript and CSS
+
+
+# Installation and Setup Instructions
 
 ## to install the dependencies run
 

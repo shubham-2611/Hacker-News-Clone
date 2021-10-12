@@ -4,7 +4,7 @@ const json = ".json?print=pretty";
 function removeDead(posts) {
   return posts.filter(Boolean).filter(({ dead }) => dead !== true);
 }
-
+// remmove deleted posts
 function removeDeleted(posts) {
   return posts.filter(({ deleted }) => deleted !== true);
 }

@@ -3,7 +3,7 @@ import { fetchComments, fetchItem } from "../utils/api";
 import PostTitle from "./PostTitle";
 import queryString from "query-string";
 import AuthorInfo from "./AuthorInfo";
-
+//changes in comments
 export default class Comments extends React.Component {
   constructor(props) {
     super(props);

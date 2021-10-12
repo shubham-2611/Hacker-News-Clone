@@ -8,6 +8,7 @@ import User from "./components/User";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Comments from "./components/Comments";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+//routes defined for the app
 export default class App extends React.Component {
   render() {
     return (

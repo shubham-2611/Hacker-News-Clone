@@ -5,7 +5,7 @@ import { func } from "prop-types";
 const activeStyle = {
   color: "rgb(187, 26, 31)",
 };
-
+// added nav styles using bootstrap
 export default function Nav() {
   return (
     <div>

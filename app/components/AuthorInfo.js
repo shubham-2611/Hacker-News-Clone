@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 
 export default function AuthorInfo({ by, comments, time, id }) {
   return (
-    <div>
+    <div className="my-2">
       <p>
-        <span>
+        <span className="">
           by
           <Link
+            className="text-capitalize fw-bold mx-2"
             to={{
               pathname: "/user",
               search: `?id=${by}`,
@@ -18,8 +19,11 @@ export default function AuthorInfo({ by, comments, time, id }) {
           </Link>
         </span>
         on{formatDate(time)} with
-        <span>
-          <Link to={{ pathname: "/post", search: `?id=${id}` }}>
+        <span className="text-capitalize fw-bold mx-2">
+          <Link
+            className="mx-2"
+            to={{ pathname: "/post", search: `?id=${id}` }}
+          >
             {comments}
           </Link>
           comments

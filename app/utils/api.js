@@ -8,7 +8,7 @@ function removeDead(posts) {
 function removeDeleted(posts) {
   return posts.filter(({ deleted }) => deleted !== true);
 }
-
+// show only commets of the posts
 function onlyComments(posts) {
   return posts.filter(({ type }) => type === "comment");
 }

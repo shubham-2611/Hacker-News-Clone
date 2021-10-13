@@ -8,25 +8,7 @@ body {
   font-family: sans-serif;
 }
 
-#para-1{
-  height:100px;
-  width:100px;
-  min-height: 60px;
-  background-color: red;
-  font-family: inherit;
-  
 
-}
-
-#para-3{
-  width: 100px;
-  height: 100px;
-  min-height: 60px;
-  background-color: blue;
-  text-align: center;
-  border-radius:100px;
-  font-family: inherit;
-}
 
 .section-heading {
   width: auto;
